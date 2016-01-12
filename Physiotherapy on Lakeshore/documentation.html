@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Very Clean and Modern Template for your business or personal website">
+	<meta name="author" content="evoeffect">
+
+	<title>EvoTemplate - Clean Teamplate</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Code Syntax CSS -->
+	<link href="documentation_files/css/shCore.css" rel="stylesheet" type="text/css">
+
+	<link href="documentation_files/css/shThemeDefault.css" rel="stylesheet" type="text/css">
+
+	<link href="documentation_files/css/style.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<!-- Body -->
+<body>
+
+	<!-- Sidebar Column -->
+	<div class="col-md-3" id="side_menu">
+		<div class="list-group">
+			<a href="#intro" class="list-group-item">Introduction</a>
+			<a href="#structures" class="list-group-item">Main Structures</a>
+			<a href="#beginning" class="list-group-item">Page Beginning</a>
+			<a href="#page_head" class="list-group-item">Page Head</a>
+			<a href="#navigation" class="list-group-item">Navigation</a>
+			<a href="#carousel" class="list-group-item">Header - Carousel</a>
+			<a href="#wrapper" class="list-group-item">Wrapper</a>
+			<a href="#circle_progress_doc" class="list-group-item">Circle Progress</a>
+			<a href="#portfolio" class="list-group-item">Portfolio</a>
+			<a href="#team" class="list-group-item">Team</a>
+			<a href="#prices" class="list-group-item">Prices</a>
+			<a href="#footer" class="list-group-item">Footer</a>
+			<a href="#contact" class="list-group-item">Contact</a>
+			<a href="#javascript" class="list-group-item">Javascript Includes</a>
+			<a href="#theme_color" class="list-group-item">Change Theme Color</a>
+			<a href="#fonts" class="list-group-item">Fonts</a>
+			<a href="#color_chooser" class="list-group-item">Demo Color Chooser</a>
+			<a href="#credits" class="list-group-item">Credits</a>
+			<a href="#image_credits" class="list-group-item">Image Credits</a>
+			<a href="#pictures_used" class="list-group-item">Pictures Used</a>
+			<a href="#change_log" class="list-group-item">Change Log</a>
+		</div>
+	</div>
+
+	<!-- Page Content -->
+	<div id="documentation_text">
+		<h1 class="page-header text-center">
+			Documentation
+		</h1>
+		<!-- Content Row -->
+		<div class="row">
+			<div col="col-md-11">
+				<!-- Content Column -->
+				<div class="col-md-11" id="intro">
+					<h2>Introduction</h2>
+					<p>EvoTemplate is a simple, clean, beautiful and fully responsive Bootstrap 3 Template for any business or personal use. Our code is very organized and easy to customize. You can use it on all main browsers, and also on your phone or tablet.</p>
+
+					<p>Evotemplate is fully animated and very fluid. You just have to scroll down to view the page. It also comes with some separate pages like, 
+					404 error, portfolio item, FAQ and more.</p>
+
+					<p>We assume that you are already familiarized with bootstrap documentation, so this guide is not very extensive. If you want to know
+					more about Bootstrap go <a href="http://getbootstrap.com/">here</a>.
+
+					<p>We will update our template in the future and we will listen to our customers for opinions and suggestions of new features.</p>
+
+					<ul>
+						<li>Author: claudiuh</li>
+						<li>Contact: c.hebler@outlook.com</li>
+						<li>Created on: 25/01/2015</li>
+						<li>Latest Update on: Never</li>
+					</ul>
+
+					<img class="img-responsive" src="images/documentation/intro.jpg">
+				</div>
+
+				<div class="col-md-11" id="structures">
+					<h2>Main Structures</h2>
+					<p>Home Page Main Structures are: <code>nav</code>, <code>header</code>, <code>wrapper</code> and <code>footer.</code></p>
+				</div>
+
+				<div class="col-md-11" id="beginning">
+					<h2>Page Beginning</h2>
+					<p>Add these tags at the beginning of the file.</p>
+					<pre class="brush: xml">
+						&lt;!DOCTYPE html>
+						&lt;html lang="en">
+					</pre>
+				</div>
+
+				<div class="col-md-11" id="page_head">
+					<h2>Page Head</h2>
+					<p>Page head contains title, metadata and css includes.</p>
+					<pre class="brush: xml">
+						&lt;meta charset="utf-8">
+							&lt;meta http-equiv="X-UA-Compatible" content="IE=edge">
+							&lt;meta name="viewport" content="width=device-width, initial-scale=1">
+							&lt;meta name="description" content="Very Clean and Modern Template for your business or personal website">
+							&lt;meta name="author" content="evoeffect">
+
+							&lt;title>EvoTemplate - Clean Teamplate&lt;/title>
+
+							&lt;!-- Bootstrap Core CSS -->
+							&lt;link href="css/bootstrap.min.css" rel="stylesheet">
+
+							&lt;!-- Custom CSS -->
+							&lt;link href="css/style.css" rel="stylesheet">
+
+							&lt;!-- Animation CSS -->
+							&lt;link href="css/animate.min.css" rel="stylesheet">
+
+							&lt;!-- Hover Effects CSS -->
+							&lt;link href="css/hover-min.css" rel="stylesheet" media="all">
+
+							&lt;!-- Custom Fonts -->
+							&lt;link href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+							&lt;!-- PrettyPhoto -->
+							&lt;link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
+					</pre>
+				</div>
+
+				<div class="col-md-11" id="navigation">
+					<h2>Navigation</h2>
+					<p>Navigation contains menu, logo and sub menus.</p>
+					<img class="img-responsive" src="images/documentation/navigation.jpg">
+					<pre class="brush: xml">
+						&lt;!-- Navigation -->
+						&lt;nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+							...
+							...
+						&lt;/nav>
+						&lt;!-- End of Navigation -->
+					</pre>
+					<p>To add a menu or sub menu item you have to add the following line: (you have to change the id and the text of course)</p>
+					<pre class="brush: xml">
+						&lt;li>
+							&lt;a class="page-scroll" href="#features">Features&lt;/a>
+						&lt;/li>
+					</pre>
+					<p>To make a menu item active, you have to add <code>.active</code> class to that item's <code>li</code> element.</p>
+					<pre class="brush: xml">
+						&lt;li class="active">
+							&lt;a class="page-scroll" href="#page-top">Home&lt;/a>
+						&lt;/li>
+					</pre>
+				</div>
+
+				<div class="col-md-11" id="carousel">
+					<h2>Header - Carousel</h2>
+					<p>Header contains carousel and slider.</p>
+					<img class="img-responsive" src="images/documentation/intro.jpg">
+					<pre class="brush: xml">
+						&lt;!-- Header Carousel -->
+						&lt;header id="myCarousel" class="carousel text-center">
+							...
+							...
+						&lt;/header>
+						&lt;!-- End of Carousel -->
+					</pre>
+					<p>To change Slider images you have to put the images you want in images folder first. After that you have to change the image path for all slider pages:</p>
+					<pre class="brush: xml">
+						&lt;!-- Here you can change the slider background -->
+						&lt;div class="fill" style="background-image:url('images/slider1.jpg');" 
+						data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" 
+						data-anchor-target="#slide-1">
+					</pre>
+				</div>
+
+				<div class="col-md-11" id="wrapper">
+					<h2>Wrapper</h2>
+					<p>Wrapper contains Features, About US, Portfolio, Prices and Contact. It uses two mains classes: <code>.container</code> and <code>.colored_container</code>. You have two options: <code>.container</code> uses the default background and <code>.colored_container</code> uses custom colors.</p>
+					<pre class="brush: xml">
+						&lt;!-- Page Content -->
+						&lt;wrapper>
+							...
+							...
+						&lt;/wrapper>
+						&lt;!-- End of Page Content -->
+					</pre>
+					<p>To add a colored container you have to use the following:</p>
+					<pre class="brush: xml">
+						&lt;div class="colored_container text-center" id="aboutus">
+							&lt;div class="container">
+								...
+								...
+							&lt;/div>
+						&lt;/div>
+					</pre>
+				</div>
+
+				<div class="col-md-11" id="circle_progress_doc">
+					<h2>Circle Progress</h2>
+					<p>We use javascript plugin Circle Progress to make progress charts. To learn how to use them just go 
+					<a href="https://github.com/kottenator/jquery-circle-progress">here</a>.</p>
+					<img class="img-responsive" src="images/documentation/circle_progress.jpg">
+					<p>To create a circle just use the following code(example). You can change the settings on the evotemplate.js file. To learn how to do that,
+					just use the link above.</p>
+					<pre class="brush: xml">
+						&lt;div class="col-md-3 col-sm-3 wow animated fadeInLeft">
+							&lt;div class="circles">
+								&lt;div id="circle_one">
+									&lt;div class="circle-txt">&lt;/div>
+								&lt;/div>
+							&lt;/div>
+							&lt;h4 class="wow animated fadeIn">PHP SKILLS&lt;/h4>	
+						&lt;/div>
+					</pre>
+				</div>
+
+				<div class="col-md-11" id="portfolio">
+					<h2>Portfolio</h2>
+					<p>To create the protfolio use the following code:</p>
+					<img class="img-responsive" src="images/documentation/port.jpg">
+					<pre class="brush: xml">
+						&lt;!-- Portfolio Section -->
+						&lt;div class="container" id="port">
+							&lt;!-- Portfolio Title -->
+							&lt;h1 class="page-header text-center wow animated fadeInDown">
+								Recent Works
+							&lt;/h1>
+
+							&lt;nav class="primary clearfix wow animated fadeIn">
+								&lt;ul>
+									&lt;li>&lt;a href="#" class="selected" data-filter="*">All&lt;/a>&lt;/li>
+									&lt;li>&lt;a href="#" data-filter=".web">Web Design&lt;/a>&lt;/li>
+									&lt;li>&lt;a href="#" data-filter=".ill">Ilustration&lt;/a>&lt;/li>
+									&lt;li>&lt;a href="#" data-filter=".logo">Logo&lt;/a>&lt;/li>
+									&lt;li>&lt;a href="#" data-filter=".video">Video&lt;/a>&lt;/li>
+									&lt;li>&lt;a href="#" data-filter=".print">Print Design&lt;/a>&lt;/li>
+								&lt;/ul>
+							&lt;/nav>
+							&lt;section class="main">
+								&lt;div class="portfolio">
+									&lt;article class="entry video wow animated fadeIn">
+										&lt;a data-rel="prettyPhoto" href="http://vimeo.com/34266952">
+										&lt;img class="image_port" src="images/portfolio/work1.jpg" alt="">
+										 &lt;span class="magnifier text-center">&lt;div class="magnifier_icon">&lt;i class="fa fa-2x fa-search">&lt;/i>&lt;/div>&lt;/span>
+										&lt;/a>
+									&lt;/article>
+								&lt;/div>
+							&lt;/section>
+						&lt;/div> 
+						&lt;!-- End of Portfolio section -->
+					</pre>
+					<p>You can add as many items as you like with the article code:</p>
+					<pre class="brush: xml">
+						&lt;article class="entry video wow animated fadeIn">
+							&lt;a data-rel="prettyPhoto" href="http://vimeo.com/34266952">
+							&lt;img class="image_port" src="images/portfolio/work1.jpg" alt="">
+							 &lt;span class="magnifier text-center">&lt;div class="magnifier_icon">&lt;i class="fa fa-2x fa-search">&lt;/i>&lt;/div>&lt;/span>
+							&lt;/a>
+						&lt;/article>
+					</pre>
+					<p>To change the category, just add watherver name you like to the article class, just after the word entry. You can use photos or videos. 
+					Just put the file url or web url on the href section.</p>
+				</div>
+
+				<div class="col-md-11" id="team">
+					<h2>Team</h2>
+					<p>To add a team member, just add the following: (example of course)</p>
+					<img class="img-responsive" src="images/documentation/team.jpg">
+					<pre class="brush: xml">
+						&lt;div class="col-md-3 col-sm-3 text-center wow animated fadeInLeft">	
+							&lt;div class="thumbnail">
+								&lt;div class="image_grow">
+									&lt;img class="img-responsive hvr-grow-rotate" src="images/team1.jpg" alt="">
+								&lt;/div>
+								&lt;div class="caption">
+									&lt;h3>Name One&lt;br>
+										&lt;small>Job Title&lt;/small>
+									&lt;/h3>
+									&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.&lt;/p>
+									&lt;ul class="list-inline">
+										&lt;li>&lt;a href="#home">&lt;i class="fa fa-2x fa-facebook wow flipInY" data-wow-delay="0.1s" 
+										data-wow-duration="2s">&lt;/i>&lt;/a>&lt;/li>
+										&lt;li>&lt;a href="#home">&lt;i class="fa fa-2x fa-twitter wow flipInY" data-wow-delay="0.2s" 
+										data-wow-duration="2s">&lt;/i>&lt;/a>&lt;/li>
+										&lt;li>&lt;a href="#home">&lt;i class="fa fa-2x fa-google-plus wow flipInY" data-wow-delay="0.3s" 
+										data-wow-duration="2s">&lt;/i>&lt;/a>&lt;/li>
+										&lt;li>&lt;a href="#home">&lt;i class="fa fa-2x fa-instagram wow flipInY" data-wow-delay="0.4s" 
+										data-wow-duration="2s">&lt;/i>&lt;/a>&lt;/li>
+										&lt;li>&lt;a href="#home">&lt;i class="fa fa-2x fa-tumblr wow flipInY" data-wow-delay="0.5s" 
+										data-wow-duration="2s">&lt;/i>&lt;/a>&lt;/li>
+									&lt;/ul>
+								&lt;/div>
+							&lt;/div> 
+						&lt;/div>
+					</pre>
+					<p>If you want to change the images, just put your new ones into images folder and change the team member image path.</p>
+				</div>
+
+				<div class="col-md-11" id="prices">
+					<h2>Prices</h2>
+					<img class="img-responsive" src="images/documentation/prices.jpg">
+					<p>To add a price you have to use the following code: (this is for the left one)</p>
+					<pre class="brush: xml">
+						&lt;div class="col-md-4 col-sm-4 wow animated fadeInLeft">
+							&lt;div class="panel panel-default text-center">
+								&lt;div class="panel-heading">
+									&lt;h3 class="panel-title price-title">Basic&lt;/h3>
+								&lt;/div>
+								&lt;div class="panel-body">
+									&lt;span class="price">&lt;sup>$&lt;/sup>15&lt;sup>99&lt;/sup>&lt;/span>
+									&lt;span class="period">per month&lt;/span>
+								&lt;/div>
+								&lt;ul class="list-group">
+									&lt;li class="list-group-item">&lt;strong>1&lt;/strong> User&lt;/li>
+									&lt;li class="list-group-item">&lt;strong>5&lt;/strong> Projects&lt;/li>
+									&lt;li class="list-group-item">&lt;strong>Unlimited&lt;/strong> Email Accounts&lt;/li>
+									&lt;li class="list-group-item">&lt;strong>10GB&lt;/strong> Disk Space&lt;/li>
+									&lt;li class="list-group-item">&lt;strong>100GB&lt;/strong> Monthly Bandwidth&lt;/li>
+									&lt;li class="list-group-item">&lt;a href="#" class="btn btn-primary">Sign Up Now&lt;/a>
+									&lt;/li>
+								&lt;/ul>
+							&lt;/div>
+						&lt;/div>
+					</pre>
+				</div>
+
+				<div class="col-md-11" id="contact">
+					<h2>Contact</h2>
+					<img class="img-responsive" src="images/documentation/contact.jpg">
+					<p>To create the form contact just add:</p>
+					<pre class="brush: xml">
+						&lt;!-- Contact -->
+						&lt;div class="container" id="contact">
+							&lt;!-- Contact Text -->
+							&lt;div class="col-md-12">
+								&lt;div class="col-md-7 col-lg-6" id="contact_form">
+									&lt;!-- Contact Title -->
+									&lt;div class="row  wow animated fadeInDown">
+										&lt;h2 class="page-header text-center">Contact US&lt;/h2>
+									&lt;/div>
+									&lt;form name="sentMessage" id="contactForm" novalidate>
+										&lt;!-- Name -->
+										&lt;div class="row">
+											&lt;div class="control-group form-group">
+												&lt;div class="controls">
+													&lt;!-- Name Label -->
+													&lt;label class="wow animated fadeIn">Full Name:&lt;/label>
+													&lt;!-- Name Input -->
+													&lt;input type="text" class="form-control wow animated fadeIn" id="name" required 
+													data-validation-required-message="Please enter your name." data-wow-delay="0.1s">
+													&lt;p class="help-block">&lt;/p>
+												&lt;/div>
+											&lt;/div>
+										&lt;/div>
+										&lt;!-- Phone Number -->
+										&lt;div class="row">
+											&lt;div class="control-group form-group">
+												&lt;div class="controls">
+													&lt;!-- Phone Number Label -->
+													&lt;label class="wow animated fadeIn" data-wow-delay="0.2s">Phone Number:&lt;/label>
+													&lt;!-- Phone Number Input -->
+													&lt;input type="tel" minlength="10" data-validation-minlength-message="Telephone Number requires 10 digits" class="form-control wow animated fadeIn" id="phone" required 
+													data-validation-required-message="Please enter your phone number." data-wow-delay="0.3s">
+												&lt;/div>
+											&lt;/div>
+										&lt;/div>
+										&lt;!-- Email -->
+										&lt;div class="row">
+											&lt;div class="control-group form-group">
+												&lt;div class="controls">
+													&lt;!-- Email Adress Label -->
+													&lt;label class="wow animated fadeIn" data-wow-delay="0.4s">Email Address:&lt;/label>
+													&lt;!-- Email Adress Input -->
+													&lt;input type="email" class="form-control wow animated fadeIn" id="email" required 
+													data-validation-required-message="Please enter your email address." data-wow-delay="0.5s">
+												&lt;/div>
+											&lt;/div>
+										&lt;/div>
+										&lt;!-- Message -->
+										&lt;div class="row">
+											&lt;div class="control-group form-group">
+												&lt;div class="controls">
+													&lt;!-- Message Label -->
+													&lt;label class="wow animated fadeIn" data-wow-delay="0.6s">Message:&lt;/label>
+													&lt;!-- Message Input -->
+													&lt;textarea rows="10" cols="100" class="form-control wow animated fadeIn" id="message" required 
+													data-validation-required-message="Please enter your message" maxlength="999" style="resize:none" 
+													data-wow-delay="0.7s">&lt;/textarea>
+												&lt;/div>
+											&lt;/div>
+										&lt;/div>
+										&lt;!-- For success/fail messages -->
+										&lt;div id="success">&lt;/div>
+										&lt;!-- Send Button -->
+										&lt;div class="row">
+											&lt;button type="submit" class="btn btn-primary wow animated fadeIn" data-wow-delay="0.8s">Send Message&lt;/button>
+										&lt;/div>
+									&lt;/form>
+								&lt;/div>
+							&lt;/div>
+						&lt;/div>
+						&lt;!-- End of Contact -->
+					</pre>
+					<p>To change the form details like email sender, just go to the bin folder and open contact_me.php.</p>
+				</div>
+
+				<div class="col-md-11" id="footer">
+					<h2>Footer</h2>
+					<p>Footer contains contacts, social network links and copyright.</p>
+					<pre class="brush: xml">
+						&lt;!-- Footer -->
+						&lt;footer class="text-center">
+							...
+							...
+						&lt;/footer>
+						&lt;!-- End of Footer -->
+					</pre>
+				</div>
+
+				<div class="col-md-11" id="javascript">
+					<h2>Javascript Includes</h2>
+					<p>We include the script files at the end of the page, so it will reduce page load time.</p>
+					<pre class="brush: xml">
+						&lt;!-- jQuery Version 1.11.2 -->
+						&lt;script src="js/jquery-1.11.2.min.js">&lt;/script>
+
+						&lt;!-- Bootstrap Core JavaScript -->
+						&lt;script src="js/bootstrap.min.js">&lt;/script>
+
+						&lt;!-- Wow Script -->
+						&lt;script src="js/wow.min.js">&lt;/script>
+
+						&lt;!-- Scrolling Nav Script -->
+						&lt;script src="js/scrolling-nav.js">&lt;/script>
+
+						&lt;!-- Jquery Easing Script - Required for Scrolling Nav -->
+						&lt;script src="js/jquery.easing.min.js">&lt;/script>
+
+						&lt;!-- Bootstrap Validation Script -->
+						&lt;script src="js/jqBootstrapValidation.js">&lt;/script>
+
+						&lt;!-- Contact Me Scrip -->
+						&lt;script src="js/contact_me.js">&lt;/script>
+
+						&lt;!-- Carousel and WOW init -->
+						&lt;script src="js/evotemplate.js">&lt;/script>
+
+						&lt;!-- Nice Scroll -->
+						&lt;script src="js/jquery.nicescroll.min.js">&lt;/script>
+
+						&lt;!-- Circle Progress -->
+						&lt;script src="js/circle-progress.js">&lt;/script>
+
+						&lt;!-- PrettyPhoto -->
+						&lt;script type="text/javascript" src="js/jquery.prettyPhoto.js">&lt;/script>
+
+						&lt;!-- Isotope -->
+						&lt;script type="text/javascript" src="js/isotope.pkgd.min.js">&lt;/script>
+					</pre>
+				</div>
+
+				<div class="col-md-11" id="theme_color">
+					<h2>Change Theme Color</h2>
+					<p>To change color, you have to change the following line:</p>
+					<pre class="brush: xml">
+						&lt;!-- Custom Color CSS -->
+						&lt;link href="css/default.css" rel="stylesheet" class="color">
+					</pre>
+					<p>You can add your custom css color file or use the default ones, witch are located in css/colors.</p>
+					<p>For example:</p>
+					<pre class="brush: xml">
+						&lt;!-- Custom Color CSS -->
+						&lt;link href="css/colors/style_green.css" rel="stylesheet" class="color">
+					</pre>
+					<p>If you do not want to use custom color, you can delete the custom color css line. 
+					The default color is included in styles.css file.</p>
+				</div>
+
+				<div class="col-md-11" id="fonts">
+					<h2>Fonts</h2>
+					<p>EvoTeamplate uses Armata Regular for the h1, h3, h4, h5, h6 and the navbar. The rest of the page uses: "Helvetica Neue",Helvetica,Arial,sans-serif</p>
+				</div>
+
+				<div class="col-md-11" id="color_chooser">
+					<h2>Demo Color Chooser</h2>
+					<img class="img-responsive" src="images/documentation/demo_color.jpg">
+					<p>If you want to use the demo color chooser, you have to add the following to your page:</p>
+					<p>First, include demo.css:</p>
+					<pre class="brush: xml">
+						&lt;!-- Demo CSS -->
+						&lt;link href="css/demo.css" rel="stylesheet">
+					</pre>
+					<p>Second, add this code after the body tag:</p>
+					<pre class="brush: xml">
+						<!-- Demo Color Chooser -->
+						&lt;div id="colors">
+							&lt;!-- Colors -->
+							&lt;div id="colors_body">
+								&lt;a href="#" rel="css/colors/style_yellow.css" class="color_square yellow_col">&lt;/a>
+								&lt;a href="#" rel="css/colors/style_orange.css" class="color_square orange_col">&lt;/a>
+								&lt;a href="#" rel="css/colors/style_red_one.css" class="color_square red_one_col">&lt;/a>
+								&lt;a href="#" rel="css/colors/style_red_two.css" class="color_square red_two_col">&lt;/a>
+								&lt;a href="#" rel="css/colors/style_violet_one.css" class="color_square violet_one_col">&lt;/a>
+								&lt;a href="#" rel="css/colors/style_violet_two.css" class="color_square violet_two_col">&lt;/a>
+								&lt;a href="#" rel="css/colors/style_violet_three.css" class="color_square violet_three_col">&lt;/a>
+								&lt;a href="#" rel="css/colors/style_blue_one.css" class="color_square blue_one_col">&lt;/a>
+								&lt;a href="#" rel="css/colors/default.css" class="color_square blue_two_col">&lt;/a>
+								&lt;a href="#" rel="css/colors/style_turquoise_one.css" class="color_square turquoise_one_col">&lt;/a>
+								&lt;a href="#" rel="css/colors/style_turquoise_two.css" class="color_square turquoise_two_col">&lt;/a>
+								&lt;a href="#" rel="css/colors/style_green.css" class="color_square green_col">&lt;/a>
+							&lt;/div>
+							&lt;!-- Color Chooser Icon -->
+							&lt;div id="icon-options">
+								&lt;i class="fa fa-cog fa-3x fa-flip-horizontal">&lt;/i>
+							&lt;/div>
+						&lt;/div>
+						&lt;!-- End of Demo Color Chooser -->
+					</pre>
+					<p>Last, include color_changer script:</p>
+					<pre class="brush: xml">
+						&lt;!-- Color Chooser Script -->
+						&lt;script src="js/color_changer.js">&lt;/script>
+					</pre>
+				</div>
+
+				<div class="col-md-11" id="credits">
+					<h2>Credits</h2>
+					<table class="table">
+						<tr>
+							<td>Name</td>
+							<td>Description</td>
+							<td>URL</td>
+						</tr>
+						<tr>
+							<td>Twitter Bootstrap</td>
+							<td>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</td>
+							<td><a href="http://getbootstrap.com/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>jQuery</td>
+							<td>jQuery is a fast, small, and feature-rich JavaScript library.</td>
+							<td><a href="http://jquery.com/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>WOW.js</td>
+							<td>Reveal Animations When You Scroll. Very Animate.css Friend :-) Easily customize animation settings: style, delay, length, offset, iterations...</td>
+							<td><a href="http://mynameismatthieu.com/WOW/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>jQuery Easing Plugin</td>
+							<td>A jQuery plugin from GSGD to give advanced easing options.</td>
+							<td><a href="http://gsgd.co.uk/sandbox/jquery/easing/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>jqBootstrapValidation</td>
+							<td>A JQuery validation plugin for bootstrap forms.</td>
+							<td><a href="http://reactiveraven.github.io/jqBootstrapValidation/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>contact_me.js and contact_me.php</td>
+							<td>contact form</td>
+							<td><a href="https://github.com/myprogrammingblog/myprogrammingblog.com/tree/master/UI%20Components/contact%20form">LINK</a></td>
+						</tr>
+						<tr>
+							<td>Scrolling Nav</td>
+							<td>Scrolling Nav is a basic Bootstrap framework for creating smooth scrolling, one page websites.</td>
+							<td><a href="http://startbootstrap.com/template-overviews/scrolling-nav/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>jquery-circle-progress</td>
+							<td>jQuery Plugin to draw animated circular progress bars.</td>
+							<td><a href="https://github.com/kottenator/jquery-circle-progress">LINK</a></td>
+						</tr>
+						<tr>
+							<td>Pretty Photo</td>
+							<td>prettyPhoto is a jQuery based lightbox clone.</td>
+							<td><a href="http://isotope.metafizzy.co/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>Isotope</td>
+							<td>Filter & sort magical layouts.</td>
+							<td><a href="http://startbootstrap.com/template-overviews/scrolling-nav/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>Animate.css</td>
+							<td>Just-add-water CSS animations</td>
+							<td><a href="http://daneden.github.io/animate.css/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>Hover.css</td>
+							<td>A collection of CSS3 powered hover effects to be applied to call to actions, buttons, logos, featured images and so on.</td>
+							<td><a href="http://ianlunn.github.io/Hover/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>Font Awesome</td>
+							<td>Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.</td>
+							<td><a href="http://fortawesome.github.io/Font-Awesome/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>Font Armata Regular</td>
+							<td></td>
+							<td>
+								<a href="http://www.fontsquirrel.com/fonts/armata">LINK</a>
+							</td>
+						</tr>
+						<tr>
+							<td>SyntaxHighlighter</td>
+							<td>SyntaxHighlighter is a fully functional self-contained code syntax highlighter developed in JavaScript.</td>
+							<td>
+								<a href="http://alexgorbatchev.com/SyntaxHighlighter/">LINK</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="col-md-11" id="image_credits">
+					<h2>Image Credits</h2>
+					<table class="table">
+						<tr>
+							<td>Name</td>
+							<td>Description</td>
+							<td>URL</td>
+						</tr>
+						<tr>
+							<td>unsplash</td>
+							<td>Free (do whatever you want) high-resolution stock photos.</td>
+							<td><a href="https://unsplash.com/">LINK</a></td>
+						</tr>
+						<tr>
+							<td>IM FREE</td>
+							<td>A curated collection of free resources, all for commercial use.</td>
+							<td><a href="http://www.imcreator.com/free">LINK</a></td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="col-md-4" id="pictures_used">
+					<h2>Pictures Used</h2>
+					<table class="table">
+						<tr>
+							<td>
+								<a href="https://ununsplash.imgix.net/uploads/1413387158190559d80f7/6108b580?q=75&fm=jpg&s=d1c3df390a81d3371d05730a396ca390">
+								<img width="200px" height="200px" src="images/slider1.jpg"></img></a>
+							</td>
+							<td>
+								<a href="https://unsplash.imgix.net/photo-1419064642531-e575728395f2?q=75&fm=jpg&s=490dffe2e11f468947891ab40651e176"><img width="200px" height="200px" src="images/slider3.jpg"></img></a>
+							</td>
+							<td>
+								<a href="https://unsplash.imgix.net/reserve/nE6neNVdRPSIasnmePZe_IMG_1950.jpg?q=75&fm=jpg&s=fdad3b92c369e701e57a3a87386012c2"><img width="200px" height="200px" src="images/slider2.jpg"></img></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="https://unsplash.imgix.net/photo-1419332563740-42322047ff09?q=75&fm=jpg&s=f1e7d176e154bfe4a511b9ecd95a0a84"><img width="200px" height="200px" src="images/portfolio/work1.jpg"></img></a>
+							</td>
+							<td>
+								<a href="https://unsplash.imgix.net/photo-1416838375725-e834a83f62b7?q=75&fm=jpg&s=fc628c231023b391f54f10f92b859a0c"><img width="200px" height="200px" src="images/portfolio/work2.jpg"></img></a>
+							</td>
+							<td>
+								<a href="https://ununsplash.imgix.net/photo-1416424500327-a57ace7358b8?q=75&fm=jpg&s=3966cc55b430efa05255500b936ea250"><img width="200px" height="200px" src="images/portfolio/work3.jpg"></img></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="https://ununsplash.imgix.net/photo-1414604582943-2fd913b3cb17?q=75&fm=jpg&s=f446e822ccd1b4608242cad57d747769"><img width="200px" height="200px" src="images/portfolio/work4.jpg"></a>
+							</td>
+							<td>
+								<a href="https://ununsplash.imgix.net/uploads/141319062591093cefc09/ad50c1f0?q=75&fm=jpg&s=a356dd61ff3da2269124bcd12a303b7e"><img width="200px" height="200px" src="images/portfolio/work5.jpg"></a>
+							</td>
+							<td>
+								<a href="https://unsplash.imgix.net/uploads/1411589183965bdf6e141/5f468e98?q=75&fm=jpg&s=007333c388fb36767cbd152600bea6b8"><img width="200px" height="200px" src="images/portfolio/work6.jpg"></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="https://unsplash.imgix.net/uploads/14115890754139bc8568d/d5e1ad1d?q=75&fm=jpg&s=4d0356a1dd7b363ade2f7185d45c62fa"><img width="200px" height="200px" src="images/portfolio/work7.jpg"></a>
+							</td>
+							<td>
+								<a href="https://ununsplash.imgix.net/photo-1416934625760-d56f5e79f6fe?q=75&fm=jpg&s=032ca37757b3dc1851661856b956a24c"><img width="200px" height="200px" src="images/portfolio/work8.jpg"></a>
+							</td>
+							<td>
+								<a href="https://unsplash.imgix.net/photo-1415033523948-6c31d010530d?q=75&fm=jpg&s=559455b1ad675f8dc95a04528044f870"><img width="200px" height="200px" src="images/portfolio/work9.jpg"></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="https://unsplash.imgix.net/photo-1417716226287-2f8cd2e80274?q=75&fm=jpg&s=c386f1337474ba3141a17d3d32f2afae"><img width="200px" height="200px" src="images/portfolio/work11.jpg"></a>
+							</td>
+							<td>
+								<a href="https://ununsplash.imgix.net/uploads/1413259835094dcdeb9d3/6e609595?q=75&fm=jpg&s=6a4fc66161293fc4a43a6ca6f073d1c5"><img width="200px" height="200px" src="images/portfolio/work12.jpg"></a>
+							</td>
+							<td>
+								<a href="https://ununsplash.imgix.net/photo-1417434743061-9873e0beaed6?q=75&fm=jpg&s=64c1a89ef425b466f96c20b51a36398e"><img width="200px" height="200px" src="images/portfolio/work10.jpg"></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="https://unsplash.imgix.net/38/IbJK5etSN6dH6jAF4U0U_DSC_0280-1.jpg?q=75&fm=jpg&auto=format&s=cb7a0b2c3466b45c29110ee2e0a4e272"><img width="200px" height="200px" src="images/port1.jpg"></a>
+							</td>
+							<td>
+								<a href="https://unsplash.imgix.net/19/desktop.JPG?q=75&fm=jpg&auto=format&s=66b82c81cfed8cf57ded7b935e98e000"><img width="200px" height="200px" src="images/port2.jpg"></a>
+							</td>
+							<td>
+								<a href="https://unsplash.imgix.net/46/unsplash_52c319226cefb_1.JPG?q=75&fm=jpg&auto=format&s=3d1ae11e42d98eac6dbcfccfb013d81b"><img width="200px" height="200px" src="images/ready_to_buy.jpg"></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="https://unsplash.imgix.net/photo-1416512107527-34cebecbac33?q=75&fm=jpg&s=58eff2b3daa3b797fb23fcd511d843ca"><img width="200px" height="200px" src="images/prices.jpg"></a>
+							</td>
+							<td>
+								<a href="https://unsplash.imgix.net/reserve/yapfjxRqy2d2rGRNc2yQ_zavrsnica-9-indie.jpg?q=75&fm=jpg&s=ac5413dc4bb4a7d6476c01e0a0ec78b6"><img width="200px" height="200px" src="images/error_background.jpg"></a>
+							</td>
+							<td>
+								<a href="http://www.imcreator.com/free/youmacon-people"><img width="200px" height="200px" src="images/team3.jpg"></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="http://www.imcreator.com/free/angelica"><img width="200px" height="200px" src="images/team1.jpg"></a>
+							</td>
+							<td>
+								<a href="http://www.imcreator.com/free/afro"><img width="200px" height="200px" src="images/team2.jpg"></a>
+							</td>
+							<td>
+								<a href="http://www.imcreator.com/free/blizzcon-2010"><img width="200px" height="200px" src="images/team4.jpg"></a>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="col-md-11" id="change_log">
+					<h2>Change Log</h2>
+					<p>V 1.0 - Initial Version.</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery Version 1.11.1 -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Code Syntax Script -->
+	<script src="documentation_files/js/shCore.js"></script>
+
+	<script src="documentation_files/js/shBrushXml.js"></script>
+
+	<script src="documentation_files/js/shBrushCss.js"></script>
+
+	<script>
+		SyntaxHighlighter.all()
+	</script>
+
+</body>
+<!-- End of Body -->
+</html>

@@ -1,0 +1,23 @@
+body{
+	background-color: #EDEDED;
+	line-height: 25px;
+}
+
+a.list-group-item{
+	border: none;
+}
+
+#side_menu{
+  overflow: auto;
+  height: 100%;
+  position: fixed;
+  padding-bottom: 30px;
+}
+
+#documentation_text{
+    margin-left: 30%;
+}
+
+img{
+	border-radius: 20px;
+}

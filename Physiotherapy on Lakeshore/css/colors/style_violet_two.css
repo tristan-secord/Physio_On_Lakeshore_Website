@@ -1,0 +1,173 @@
+/*   
+ * Template Name: EvoTemplate - One Page Template
+ * Description: Multimedia, Business, Portfolio and Corporate Teamplate
+ * Version: 1.0
+ * Author: claudiuh	
+ * Website: http://evoeffect.pt
+*/
+
+/* GLOBAL STYLES */
+/* Colored Containers */
+.colored_container {
+	background-color: #5C4399;
+}
+
+.colored_body{
+	background-color: #5C4399;
+}
+
+/* Span Text Color - Change the general span color */
+span{
+    color: #5C4399;
+	
+}
+
+/* Button styles */
+.btn-primary{
+	background-color: #5C4399;
+}
+
+.btn-primary:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus,
+.btn.active:focus{
+	color: #5C4399;
+	border: 2px solid #5C4399;
+}
+
+/* Label Success Color (Prices) */
+.label-success{
+	background-color: #5C4399;
+}
+
+/* Links */
+a{
+	color: #5C4399;
+}
+
+/* END OF GLOBAL STYLES */
+
+
+/* NAVBAR STYLES */
+
+
+/* Menu Properties */
+
+.navbar-inverse-solid .navbar-nav > li > a:hover,
+.navbar-inverse-solid .navbar-nav > li > a:focus,
+.navbar-inverse-solid .navbar-nav > .active > a,
+.navbar-inverse-solid .navbar-nav > .active > a:hover,
+.navbar-inverse-solid .navbar-nav > .active > a:focus{
+	border-bottom: 3px solid #5C4399;
+}
+
+/* Dropmenu Hovering and Active Links Properties */
+.navbar-inverse-solid .dropdown-menu > li > a:hover,
+.navbar-inverse-solid .dropdown-menu > li > a:focus,
+.navbar-inverse-solid .dropdown-menu > .active > a,
+.navbar-inverse-solid .dropdown-menu > .active > a:hover,
+.navbar-inverse-solid .dropdown-menu > .active > a:focus {
+	border-left: 3px solid #5C4399;
+}
+
+@media screen and (max-width: 992px) {
+
+	.navbar-inverse .navbar-nav > li > a:hover,
+	.navbar-inverse .navbar-nav > li > a:focus,
+	.navbar-inverse .navbar-nav > .active > a,
+	.navbar-inverse .navbar-nav > .active > a:hover,
+	.navbar-inverse .navbar-nav > .active > a:focus{
+		color: #5C4399;
+	}
+
+}
+
+
+/* END OF NAVBAR STYLES */
+
+
+/* CAROUSEL STYLES */
+
+/* Carousel Title */
+.carousel h1{
+	color: #5C4399;
+}
+
+/* END OF CAROUSEL STYLES */
+
+
+/* BODY CONTENT STYLES */
+
+/* Features */
+.outside_box:hover{
+	border: 3px solid #5C4399;
+}
+
+.box {
+	background-color: #5C4399;
+  }
+
+/* Prices */
+
+/* Middle Price Panel Value */
+#primary_price, #primary_price span{
+	background-color: #5C4399;
+}
+
+/* Team */
+
+/* Team Caption Styles */
+#team .caption{
+	background-color: #5C4399;
+}
+
+/* Team Image Hover Effect */
+.image_grow{
+	background-color: #5C4399;
+}
+
+/* Contact Focusing Styles */
+
+.form-control:focus{
+	background-color: #5C4399;
+}
+
+/* END OF BODY CONTENT STYLES */
+
+
+/* FOOTER STYLES */
+
+/* Footer Social Icon Hover */
+footer i:hover{
+	color: #5C4399;
+}
+
+/* END OF FOOTER STYLES */
+
+
+/* OTHER PAGES */
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	background-color: #5C4399;
+}
+
+/* END OF OTHER PAGES */
+
+
+
+/* PORTFOLIO NAVIGATION STYLES */
+ 
+nav.primary li a.selected {
+	background-color: #5C4399;
+}
+
+nav.primary li a:hover {
+    border-bottom: 3px solid #5C4399;
+}

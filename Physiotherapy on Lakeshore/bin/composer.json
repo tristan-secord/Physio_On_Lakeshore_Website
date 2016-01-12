@@ -1,0 +1,20 @@
+{
+    "name": "physiotherapyonlakeshore/stephanie",
+    "description": "Physiotherapy On Lakeshore",
+    "type": "library",
+    "require": {
+        "sendgrid/sendgrid": "^3.2"
+    },
+    "type": "library",
+    "autoload": {
+        "psr-0": {"SendGrid": "lib/"}
+  }
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Stephanie Secord",
+            "email": "physiotherapyonlakeshore@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
